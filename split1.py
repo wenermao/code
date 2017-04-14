@@ -2,7 +2,7 @@ import re
 hand = open('spl.txt')
 need = list()
 for line in hand:
-    z = line.split(" ")[1]
+    z = line.split(" ")[0]
     need.append(z)
 print need
 
