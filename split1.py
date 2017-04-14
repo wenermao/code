@@ -7,3 +7,4 @@ for line in hand:
 print need
 
 open("one.txt", 'wb').write(str(need))
+#this is i will delete
