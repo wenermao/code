@@ -6,4 +6,4 @@ for line in hand:
     need.append(z)
 print need
 
-open("one.txt", 'wb').write(str(need))
+# open("one.txt", 'wb').write(str(need))
