@@ -3,6 +3,7 @@ hand = open('spl.txt')
 need = list()
 for line in hand:
     z = line.split(" ")[1]
+    print z
     need.append(z)
 print need
 
