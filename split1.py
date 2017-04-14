@@ -2,8 +2,8 @@ import re
 hand = open('spl.txt')
 need = list()
 for line in hand:
-    z = line.split(" ")[0]
+    z = line.split(" ")[1]
     need.append(z)
 print need
 
-# open("one.txt", 'wb').write(str(need))
+open("one.txt", 'wb').write(str(need))
